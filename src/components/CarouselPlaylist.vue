@@ -9,17 +9,17 @@ const contents = ref<{ title: string, subTitle?: string, imageUrl: string }[]>([
     {
         title: 'Weelice',
         subTitle: 'Fresh finds',
-        imageUrl: '/public/spotify-fresh-finds-no-bg.png'
+        imageUrl: '/spotify-fresh-finds-no-bg.png'
     },
     {
         title: 'Weelice',
         subTitle: 'Fresh finds',
-        imageUrl: '/public/spotify-fresh-finds-no-bg.png'
+        imageUrl: '/spotify-fresh-finds-no-bg.png'
     },
     {
         title: 'Weelice',
         subTitle: 'Fresh finds',
-        imageUrl: '/public/spotify-fresh-finds-no-bg.png'
+        imageUrl: '/spotify-fresh-finds-no-bg.png'
     },
 ])
 

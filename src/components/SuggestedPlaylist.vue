@@ -3,16 +3,16 @@ import { ref } from 'vue';
 
 const suggestedPlaylist = ref<{ imageUrl: string }[]>([
     {
-        imageUrl: '/public/libreria-tascabile.jpg'
+        imageUrl: 'libreria-tascabile.jpg'
     },
     {
-        imageUrl: '/public/ditonellapiaga.jpg'
+        imageUrl: 'ditonellapiaga.jpg'
     },
     {
-        imageUrl: '/public/fallout-boy.jpg'
+        imageUrl: 'fallout-boy.jpg'
     },
     {
-        imageUrl: '/public/twenty-one-pilots.jpg'
+        imageUrl: 'twenty-one-pilots.jpg'
     }
 ]);
 </script>

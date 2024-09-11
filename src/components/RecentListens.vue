@@ -10,35 +10,35 @@ const recentListens = ref<{ type: string, title: string, desc?: string, imageUrl
         type: 'PodCast',
         title: 'La libreria tascabile',
         desc: 'Episodio 23: Sangue amaro',
-        imageUrl: '/public/libreria-tascabile.jpg'
+        imageUrl: 'libreria-tascabile.jpg'
     },
     {
         type: 'Artista',
         title: 'DitoNellaPiaga',
-        imageUrl: '/public/ditonellapiaga.jpg'
+        imageUrl: 'ditonellapiaga.jpg'
     },
     {
         type: 'Artista',
         title: 'MACE',
-        imageUrl: '/public/mace-profile.jpg'
+        imageUrl: 'mace-profile.jpg'
     },
     {
         type: 'Album',
         title: 'MACE',
         desc: 'OBE',
-        imageUrl: '/public/mace-obe.png'
+        imageUrl: 'mace-obe.png'
     },
     {
         type: 'Album',
         title: 'Fall Out Boy',
         desc: 'Save Rock & Roll',
-        imageUrl: '/public/fallout-boy.jpg'
+        imageUrl: 'fallout-boy.jpg'
     },
     {
         type: 'Album',
         title: 'Twenty One Pilots',
         desc: 'Blurryface',
-        imageUrl: '/public/twenty-one-pilots.jpg'
+        imageUrl: 'twenty-one-pilots.jpg'
     },
 ]);
 </script>

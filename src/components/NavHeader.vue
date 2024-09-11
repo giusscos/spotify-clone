@@ -34,7 +34,7 @@ import IconSearch from '@/components/icons/IconSearch.vue';
 
         <button type="button"
             class="p-1 bg-black/50 backdrop-blur-md rounded-full flex gap-1 justify-center items-center">
-            <img class="w-7 h-7 aspect-square rounded-full" src="/public/profile-black.png" alt="Immagine progilo">
+            <img class="w-7 h-7 aspect-square rounded-full" src="/profile-black.png" alt="Immagine progilo">
             <i class="text-white w-5 h-5 pr-1">
                 <IconChevronFilled />
             </i>
