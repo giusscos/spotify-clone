@@ -5,7 +5,7 @@ import IconSearch from '@/components/icons/IconSearch.vue';
 
 <template>
     <header class="flex gap-4 justify-between items-center p-4 absolute top-0 w-full">
-        <ul class="flex justify-center items-center gap-6 text-white/50 text-sm">
+        <ul class="flex justify-center items-center gap-6 text-white/75 text-sm">
             <li class="hover:text-white transistion duration-150 ease-in-out">
                 <RouterLink to="/">
                     Home
@@ -24,7 +24,7 @@ import IconSearch from '@/components/icons/IconSearch.vue';
         </ul>
 
         <label for="search"
-            class="bg-black/10 rounded-full max-w-sm w-full px-5 py-2 text-center text-white flex items-center gap-1">
+            class="bg-black/50 rounded-full max-w-sm w-full px-5 py-2 text-center text-white flex items-center gap-1">
             <i>
                 <IconSearch />
             </i>
@@ -33,7 +33,7 @@ import IconSearch from '@/components/icons/IconSearch.vue';
         </label>
 
         <button type="button"
-            class="p-1 bg-black/20 backdrop-blur-md rounded-full flex gap-1 justify-center items-center">
+            class="p-1 bg-black/50 backdrop-blur-md rounded-full flex gap-1 justify-center items-center">
             <img class="w-7 h-7 aspect-square rounded-full" src="/public/profile-black.png" alt="Immagine progilo">
             <i class="text-white w-5 h-5 pr-1">
                 <IconChevronFilled />
