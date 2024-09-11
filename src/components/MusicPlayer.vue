@@ -10,9 +10,9 @@ import MusicPlayerHeader from './MusicPlayerHeader.vue';
 
 <template>
     <div class="p-4 relative h-full flex flex-col">
-        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-black/75 to-black rounded-md"></div>
+        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-black/75 to-black"></div>
         <video loop autoplay playsinline muted src="/BLANCO-MezzOra_Di_Sole.mp4"
-            class="absolute inset-0 -z-20 object-cover object-center h-full w-full rounded-md"></video>
+            class="absolute inset-0 -z-20 object-cover object-center h-full w-full"></video>
 
         <!-- header -->
         <MusicPlayerHeader />
